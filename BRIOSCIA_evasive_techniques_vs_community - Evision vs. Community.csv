@@ -1,0 +1,595 @@
+Category,Technique,Q FIRST SEEN,Before (2000-2009),2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,"NOT 
+SEEN (years)"
+Memory Fingerprinting,Memory-R: PEB->IS_DEBUGGED,01/10/2009,"https://community.broadcom.com/symantecenterprise/viewdocument?DocumentKey=230d68b2-c80f-4436-9c09-ff84d049da33&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments 
+",,"https://www.fireeye.com/blog/threat-research/2011/01/the-dead-giveaways-of-vm-aware-malware.html 
+https://www.ma.rhul.ac.uk/static/techrep/2012/MA-2012-10.pdf 
+","https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2012/BH_US_12_Branco_Scientific_Academic_WP.pdf
+https://citizenlab.ca/2012/07/from-bahrain-with-love-finfishers-spy-kit-exposed/ 
+https://www.cert.pl/en/news/single/kelihos-b-bot-initial-analysis/ ",,"https://core.ac.uk/download/pdf/34612995.pdf 
+https://www.exploit-db.com/docs/english/34591-breaking-the-sandbox.pdf 
+https://doc.lagout.org/security/Forensic/The%20Art%20of%20Memory%20Forensics%20-%20Detecting%20Malware%20and%20Threats%20in%20Windows%2C%20Linux%2C%20and%20Mac%20Memory%20%282014%29.pdf ","https://pdfs.semanticscholar.org/1218/58baabe1d28992b7efb370730ac391b45d10.pdf 
+https://csis.gmu.edu/ksun/publications/Malt-sp2015.pdf 
+http://pirate-network.com/upload/files/w_pacb40.pdf 
+https://docplayer.net/74835930-Technical-report-the-use-of-packers-obfuscators-and-encryptors-in-modern-malware-paul-moon-rhul-ma-march-2015.html ","https://link.springer.com/chapter/10.1007/978-3-319-33630-5_22 
+https://pentest.blog/art-of-anti-detection-1-introduction-to-av-detection-techniques/ 
+http://web.archive.org/web/20190331043852/https://pentest.blog/art-of-anti-detection-1-introduction-to-av-detection-techniques/ 
+https://web.eecs.umich.edu/~weimerw/students/kleach-dissertation.pdf 
+https://www.openu.ac.il/lists/mediaserver_documents/IshaiRosenberg.pdf","https://www.deepinstinct.com/2017/12/27/common-anti-debugging-techniques-in-the-malware-landscape/ 
+http://unprotect.tdgt.org/index.php/Anti-debugging 
+https://www.slideshare.net/ThomasRoccia/malware-evasion-techniques 
+https://blog.malwarebytes.com/malwarebytes-news/2017/11/how-to-solve-the-malwarebytes-crackme-a-step-by-step-tutorial/ 
+https://dspace.library.uvic.ca/bitstream/handle/1828/7935/Ersan_Erkan_MSc_2017.pdf?sequence=1 
+http://www.blackstormsecurity.com/docs/FOAATTB.pdf 
+http://www.pwncode.io/2017/10/ 
+https://media.defcon.org/DEF%20CON%2025/DEF%20CON%2025%20workshops/DEF%20CON%2025%20-%20Workshop-Sean-Dillion-and-Zachary-Harding-Exploitation-Malware-Forward-Engineering.pdf ","https://arxiv.org/pdf/1811.01190
+https://www.lasca.ic.unicamp.br/paulo/papers/2017-SBSeg-marcus.botacin-anti.anti.analysis.evasive.malware.pdf 
+https://www.microsoft.com/security/blog/2018/04/04/hunting-down-dofoil-with-windows-defender-atp/
+http://winsec.se/?cat=1777 
+https://techspective.net/2018/05/11/attackers-devise-evasive-techniques-to-exploit-microsoft-equation-vulnerability/
+https://terrorgum.com/tfox/books/learningmalwareanalysis_ebook.pdf ","https://published-prd.lanyonevents.com/published/rsaus19/sessionsFiles/13934/LAB4-W11_Evasion%20Tactics%20in%20Malware%20from%20the%20Inside%20Out.pdf
+https://resources.infosecinstitute.com/anti-debugging-and-anti-vm-techniques-and-anti-emulation/ 
+https://www.sentinelone.com/blog/going-deep-a-guide-to-reversing-smoke-loader-malware/ 
+https://www.apriorit.com/dev-blog/367-anti-reverse-engineering-protection-techniques-to-use-before-releasing-software 
+https://malware.news/t/deobfuscating-reversing-remcos-autoit-shellcode-and-runpe/33225 
+https://guillaumeorlando.github.io/Pony-malware-analysis 
+http://rinseandrepeatanalysis.blogspot.com/p/peb-structure.html 
+https://ired.team/offensive-security/initial-access/phishing-with-ms-office/bypassing-malicious-macro-detections-by-defeating-child-parent-process-relationships 
+https://docplayer.net/88820827-Technical-report-the-use-of-packers-obfuscators-and-encryptors-in-modern-malware-paul-moon-rhul-isg-rhul-ma-4-march-2015.html 
+https://www.cyberbit.com/blog/endpoint-security/formbook-research-hints-large-data-theft-attack-brewing/ ",2
+,Memory-R: KUSER->IS_DEBUGGED,01/07/2012,,,,https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2012/BH_US_12_Branco_Scientific_Academic_WP.pdf,,,"https://csis.gmu.edu/ksun/publications/Malt-sp2015.pdf 
+https://www.malwinator.com/2015/12/13/the-usual-anti-debugging-tricks-used-by-malware/ ",,https://link.springer.com/content/pdf/10.1007%2F978-3-319-60876-1.pdf,,"https://resources.infosecinstitute.com/anti-debugging-and-anti-vm-techniques-and-anti-emulation/#gref 
+https://archive.org/stream/AlexMatrosovEugeneRodionovSergeyBratusRootkitsAndBootkitsReversingModernMalwareA/Alex%20Matrosov%2C%20Eugene%20Rodionov%2C%20Sergey%20Bratus%20-%20Rootkits%20and%20Bootkits_%20Reversing%20Modern%20Malware%20and%20Next%20Generation%20Threats-No%20Starch%20Press%20%282019%29_djvu.txt ",8
+,Memory-R: PEB->NTGLOBALFLAG,01/10/2009,"
+https://community.broadcom.com/symantecenterprise/viewdocument?DocumentKey=230d68b2-c80f-4436-9c09-ff84d049da33&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments 
+http://www.damogran.de/PandorasBochs.pdf 
+http://web.archive.org/web/20120105112211/http://www.damogran.de/PandorasBochs.pdf
+",,http://www.pwncode.io/2017/10/ ,,,https://core.ac.uk/download/pdf/34612995.pdf ,"https://csis.gmu.edu/ksun/publications/Malt-sp2015.pdf 
+https://docplayer.net/74835930-Technical-report-the-use-of-packers-obfuscators-and-encryptors-in-modern-malware-paul-moon-rhul-ma-march-2015.html ","https://web.eecs.umich.edu/~weimerw/students/kleach-dissertation.pdf 
+https://link.springer.com/chapter/10.1007/978-3-319-33630-5_22 ","https://link.springer.com/article/10.1007/s11416-017-0291-9?shared-article-renderer 
+http://unprotect.tdgt.org/index.php/Anti-debugging 
+http://www.pwncode.io/2017/10/ ","https://www.lasca.ic.unicamp.br/paulo/papers/2017-SBSeg-marcus.botacin-anti.anti.analysis.evasive.malware.pdf 
+https://arxiv.org/pdf/1811.01190 
+https://www.microsoft.com/security/blog/2018/04/04/hunting-down-dofoil-with-windows-defender-atp/ 
+http://webthesis.biblio.polito.it/9040/1/tesi.pdf 
+http://winsec.se/?cat=1760 
+https://emanuelecozzi.net/docs/recon18_linux_malware.pdf 
+https://bradscholars.brad.ac.uk/bitstream/handle/10454/15863/ANamanya-10022889%20PhD%20Final%20Submission.pdf?sequence=1 
+https://tsoungui.fr/ebooks/CYBER-Security.pdf ","https://it.scribd.com/document/411230572/RATS-NSA
+https://www.sentinelone.com/blog/going-deep-a-guide-to-reversing-smoke-loader-malware/ ",4
+,Memory-R: HEAP->FLAGS,01/10/2009,"https://community.broadcom.com/symantecenterprise/viewdocument?DocumentKey=230d68b2-c80f-4436-9c09-ff84d049da33&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments 
+",,https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf,https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2012/BH_US_12_Branco_Scientific_Academic_WP.pdf ,,https://core.ac.uk/download/pdf/34612995.pdf,"https://csis.gmu.edu/ksun/publications/Malt-sp2015.pdf 
+https://docplayer.net/74835930-Technical-report-the-use-of-packers-obfuscators-and-encryptors-in-modern-malware-paul-moon-rhul-ma-march-2015.html ","https://link.springer.com/chapter/10.1007/978-3-319-33630-5_22
+https://web.eecs.umich.edu/~weimerw/students/kleach-dissertation.pdf ",http://unprotect.tdgt.org/index.php/Anti-debugging ,"https://arxiv.org/pdf/1811.01190
+http://webthesis.biblio.polito.it/9040/1/tesi.pdf ","https://www.apriorit.com/dev-blog/367-anti-reverse-engineering-protection-techniques-to-use-before-releasing-software 
+https://resources.infosecinstitute.com/anti-debugging-and-anti-vm-techniques-and-anti-emulation/ ",3
+,Memory-R: HEAP->FORCE_FLAGS,01/10/2009,,,,,,,,,,,,
+Exception Handling,SetUnhandledExceptionFilter,01/10/2009,https://evilcodecave.wordpress.com/2008/07/24/setunhandledexception-filter-anti-debug-trick/ ,,,,,https://core.ac.uk/download/pdf/34612995.pdf,,https://www.youtube.com/watch?v=5NO-W3SVjak ,https://link.springer.com/article/10.1007/s11416-017-0291-9?shared-article-renderer,"https://blog.morphisec.com/threat-alert-mylobot-new-sophisticated-botnet
+https://www.virusbulletin.com/virusbulletin/2018/02/review-evolution-andromeda-over-years-we-say-goodbye/ ","https://www.sciencedirect.com/science/article/pii/S2214212619300109 
+https://maff1t.github.io/AntiDebugging/ 
+https://drum.lib.umd.edu/bitstream/handle/1903/21905/Kim_umd_0117E_19756.pdf?isAllowed=y&sequence=2 
+http://dr.ur.ac.rw/bitstream/handle/123456789/942/Masabo%27s%20Thesis.pdf?sequence=1&isAllowed=yttps://orca.cf.ac.uk/129815/1/2019nunesmaphd.pdf 
+http://dione.lib.unipi.gr/xmlui/bitstream/handle/unipi/12112/Papadopoulos_1629.pdf?sequence=1&isAllowed=y 
+http://profile.maff1t.com/AntiDebugging/ ",5
+,NtClose(INVALID_HANDLE),01/10/2009,"https://community.broadcom.com/symantecenterprise/viewdocument?DocumentKey=230d68b2-c80f-4436-9c09-ff84d049da33&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments 
+http://www.cs.ucsb.edu/~chris/research/doc/oakland07_explore.pdf ",,https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf,,,,"https://www.malwinator.com/2015/12/13/the-usual-anti-debugging-tricks-used-by-malware/ 
+https://sites.cs.ucsb.edu/~vigna/publications/2015_CCS_MalGene.pdf 
+https://www.theses.fr/2015GREAM065.pdf ",,"http://unprotect.tdgt.org/index.php/Anti-debugging 
+http://lup.lub.lu.se/student-papers/record/8919255/file/8919406.pdf",https://ora.ox.ac.uk/objects/uuid:73cd7ab6-ce60-4ca4-a30b-7ebb931b6e1f/download_file?file_format=pdf&safe_filename=paper6-css18.pdf&type_of_work=Conference+item ,https://www.sciencedirect.com/science/article/pii/S016740481831246X ,6
+,OutputDebugString,01/10/2009,https://www.cgisecurity.com/lib/IIS_Security_and_Programming_Countermeasures.pdf ,,"https://issuu.com/fernandogr/docs/tbo_01_2010   
+https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf ",https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2012/BH_US_12_Branco_Scientific_Academic_WP.pdf,,"https://core.ac.uk/download/pdf/34612995.pdf
+http://index-of.es/Varios-2/Advanced%20Malware%20Analysis.pdf ","https://www.malwinator.com/2015/12/13/the-usual-anti-debugging-tricks-used-by-malware/
+https://www.vmray.com/cyber-security-blog/a-pafish-primer/ ","https://www.christian-rossow.de/publications/sandprint-raid2016.pdf 
+https://link.springer.com/chapter/10.1007/978-3-319-33630-5_22 ","https://www.deepinstinct.com/2017/12/27/common-anti-debugging-techniques-in-the-malware-landscape/
+https://www.isi.edu/~mirkovic/publications/apate.pdf 
+http://unprotect.tdgt.org/index.php/Anti-debugging 
+https://sanseolab.tistory.com/52 ","https://www.lasca.ic.unicamp.br/paulo/papers/2017-SBSeg-marcus.botacin-anti.anti.analysis.evasive.malware.pdf
+https://www.slideshare.net/JamesHaughomJr/lets-talk-technical-malware-evasion-and-detection 
+http://webthesis.biblio.polito.it/9040/1/tesi.pdf","https://published-prd.lanyonevents.com/published/rsaus19/sessionsFiles/13934/LAB4-W11_Evasion%20Tactics%20in%20Malware%20from%20the%20Inside%20Out.pdf https://www.researchgate.net/publication/328758559_Malware_Dynamic_Analysis_Evasion_Techniques_A_Survey 
+https://attack.mitre.org/software/S0354/ 
+https://archive.org/stream/AlexMatrosovEugeneRodionovSergeyBratusRootkitsAndBootkitsReversingModernMalwareA/Alex%20Matrosov%2C%20Eugene%20Rodionov%2C%20Sergey%20Bratus%20-%20Rootkits%20and%20Bootkits_%20Reversing%20Modern%20Malware%20and%20Next%20Generation%20Threats-No%20Starch%20Press%20%282019%29_djvu.txt 
+https://www.apriorit.com/dev-blog/367-anti-reverse-engineering-protection-techniques-to-use-before-releasing-software ",3
+,Instruction: POPF/D - TRAP FLAG SET,01/10/2009,"https://www.eecis.udel.edu/~cavazos/cisc850-spring2017/papers/ETHER.pdf 
+https://community.broadcom.com/symantecenterprise/viewdocument?DocumentKey=230d68b2-c80f-4436-9c09-ff84d049da33&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments 
+https://hypcode.org/public/publications/dissertation-2007-wildcat.pdf ",https://www.covert.io/research-papers/security/Fast%20Automated%20Unpacking%20and%20Classification%20of%20Malware.pdf,,"http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.398.7644&rep=rep1&type=pdf
+https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2012/12/04/TR-HGI-2012-001.pdf",,https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2014/11/21/Dissertation-Willems.pdf ,"https://pdfs.semanticscholar.org/1218/58baabe1d28992b7efb370730ac391b45d10.pdf 
+https://csis.gmu.edu/ksun/publications/Malt-sp2015.pdf 
+https://docplayer.net/74835930-Technical-report-the-use-of-packers-obfuscators-and-encryptors-in-modern-malware-paul-moon-rhul-ma-march-2015.html ","https://pentest.blog/art-of-anti-detection-1-introduction-to-av-detection-techniques/
+https://aaltodoc.aalto.fi/bitstream/handle/123456789/23979/master_Helin_Anssi_Matti_2016.pdf?sequence=1&isAllowed=y ",https://steel.isi.edu/Projects/apate/apate.pdf ,https://oaklandsok.github.io/papers/das2019.pdf ,"https://www.ru.nl/publish/pages/769526/z6_timvandijk_masterthesis.pdf 
+",3
+,CTRL_EVENT with handler,01/10/2009,"https://www.isi.edu/~mirkovic/publications/cardinaljournal.pdf
+http://ether.gtisc.gatech.edu/ether_ccs_2008.pdf 
+https://handlers.sans.org/tliston/ThwartingVMDetection_Liston_Skoudis.pdf 
+https://crpit.scem.westernsydney.edu.au/confpapers/CRPITV107Cesare.pdf 
+https://sites.cs.ucsb.edu/~chris/research/doc/acsac07_limits.pdf 
+https://community.broadcom.com/symantecenterprise/viewdocument?DocumentKey=230d68b2-c80f-4436-9c09-ff84d049da33&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",,,,,https://www.slideshare.net/rahulmohandas/detecting-evasive-malware-in-sandbox ,"http://dhilung.com/publications/scalable-automated-evasive-malware-analysis-dissertation-dkirat-2015.pdf  
+https://sites.cs.ucsb.edu/~vigna/publications/2015_CCS_MalGene.pdf 
+https://pdfs.semanticscholar.org/1218/58baabe1d28992b7efb370730ac391b45d10.pdf 
+https://csis.gmu.edu/ksun/publications/Malt-sp2015.pdf",https://web.eecs.umich.edu/~weimerw/students/kleach-dissertation.pdf,"https://www.isi.edu/~mirkovic/publications/apate.pdf 
+http://unprotect.tdgt.org/index.php/Anti-debugging ",,"https://www.jstage.jst.go.jp/article/ipsjjip/27/0/27_297/_pdf 
+https://www.ru.nl/publish/pages/769526/z6_timvandijk_masterthesis.pdf 
+https://researcher.watson.ibm.com/researcher/files/ibm-Luciano.Bello/ares_extended.pdf 
+http://slam.ece.utexas.edu/pubs/host19.PowerAnomaly.pdf 
+https://drum.lib.umd.edu/bitstream/handle/1903/21905/Kim_umd_0117E_19756.pdf?isAllowed=y&sequence=2 ",6
+CPU fingerprinting,Instruction: CPUID(eax=0x00000001),01/10/2009,"https://www.isi.edu/~mirkovic/publications/cardinaljournal.pdf 
+https://www.usenix.org/legacy/events/hotos07/tech/full_papers/garfinkel/garfinkel_html/index.html 
+http://commons.erau.edu/cgi/viewcontent.cgi?article=1200&context=jdfsl ",,,,,"https://www.ffri.jp/assets/files/research/research_papers/bheu14_chubachi_public_EN.pdf
+https://core.ac.uk/download/pdf/34612995.pdf
+https://www.exploit-db.com/docs/english/34591-breaking-the-sandbox.pdf
+https://oaktrust.library.tamu.edu/bitstream/handle/1969.1/153235/XU-DISSERTATION-2014.pdf?sequence=1","https://www.lastline.com/labsblog/defeating-darkhotel-just-in-time-decryption/
+https://csis.gmu.edu/ksun/publications/Malt-sp2015.pdf","https://www.cyberbit.com/blog/endpoint-security/anti-vm-and-anti-sandbox-explained/
+https://www.sit.fraunhofer.de/fileadmin/dokumente/Anwendertag_IT-Forensik/2016/Vortrag_Brengel_Evading-Malware-Sandboxes.pdf?_=1475564649 
+https://www.sentinelone.com/blog/sfg-furtims-parent/
+https://web.eecs.umich.edu/~weimerw/students/kleach-dissertation.pdf","https://www.isaca.org/resources/isaca-journal/issues/2017/volume-6/evasive-malware-tricks-how-malware-evades-detection-by-sandboxes
+https://www.first.org/resources/papers/conf2017/Countering-Innovative-Sandbox-Evasion-Techniques-Used-by-Malware.pdf 
+https://www.trendmicro.com/vinfo/us/security/news/security-technology/how-can-advanced-sandboxing-techniques-thwart-elusive-malware 
+https://litigationconferences.com/wp-content/uploads/2017/05/Introduction-to-Evasive-Techniques-v1.0.pdf
+https://deepsec.net/docs/Slides/2017/A_Survey_On_Automated_Dynamic_Malware_Analysis_Evasion_And_Counter-Evasion_PC_Mobile_And_Web_Alexei_Bulazel.pdf
+https://1ce0ear.github.io/2017/09/06/Malware-Evasion-Analysis-75ef8061a7dda4c4de85dc6e768b64ca/
+https://www.slideshare.net/ThomasRoccia/sandbox-evasion-cheat-sheet
+https://www.fortinet.com/blog/threat-research/evasive-sage-2-2-ransomware-variant-targets-more-countries
+https://www.mcafee.com/enterprise/en-us/assets/reports/rp-quarterly-threats-jun-2017.pdf
+https://www.google.com/search?q=%22CPUID%22++evasive+malware&tbs=cdr:1,cd_min:2010,cd_max:2019&sxsrf=ALeKk02If_V720P1nlAw-hdzivjEWj1dbg:1595494931156&ei=E1IZX6qSCYGxrgSkmrXwAw&start=30&sa=N&ved=2ahUKEwjq5_LkgePqAhWBmIsKHSRNDT44FBDw0wN6BAgLED8&biw=952&bih=995
+https://www.sciencedirect.com/science/article/pii/S1742287617301949","https://hal.inria.fr/hal-01964222/document
+https://rayanfam.com/topics/defeating-malware-anti-vm-techniques-cpuid-based-instructions/
+https://cybercrypto.net/evasion/
+https://i.blackhat.com/briefings/asia/2018/asia-18-Phuc-Mac-A-Mal-An-Automated-Framework-for-Mac-Malware-Hunting.pdf
+http://www.hacktress.com/what-is-vm-detection/
+https://seclab.bu.edu/papers/hpc_malware_myth-asiaccs2018.pdf
+http://www.academia.edu/35779182/A_Survey_On_Automated_Dynamic_Malware_Analysis_Evasion_and_Counter-Evasion_PC_Mobile_and_Web","https://www.deepinstinct.com/2019/10/29/malware-evasion-techniques-part-2-anti-vm-blog/ 
+https://www.researchgate.net/publication/330500642_Dynamic_Analysis_of_Evasive_Malware_with_a_Linux_Container_Sandbox
+https://arxiv.org/pdf/1901.05674
+https://link.springer.com/content/pdf/10.1007%2F978-3-030-22038-9.pdf",4
+,Instruction: CPUID(eax=0x40000000),01/10/2009,,,,,,,,,,,,
+,Instruction: IN(,01/10/2009,https://www.isi.edu/~mirkovic/publications/cardinaljournal.pdf,,,https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2012/BH_US_12_Branco_Scientific_Academic_WP.pdf,https://www.uvic.ca/engineering/ece/isot/assets/docs/alam-paper-sin-2013.pdf,https://core.ac.uk/download/pdf/34612995.pdf,https://docplayer.net/88820827-Technical-report-the-use-of-packers-obfuscators-and-encryptors-in-modern-malware-paul-moon-rhul-isg-rhul-ma-4-march-2015.html,https://link.springer.com/chapter/10.1007/978-3-319-33630-5_22,"http://unprotect.tdgt.org/index.php/Sandbox_Evasion
+https://www.slideshare.net/ThomasRoccia/sandbox-evasion-cheat-sheet",,http://dione.lib.unipi.gr/xmlui/bitstream/handle/unipi/12112/Papadopoulos_1629.pdf?sequence=1&isAllowed=y,4
+,Instruction: STR,01/10/2009,,,,,,,,,,,,
+,Instruction: SMSW,01/10/2009,,,,,,,,,,,,
+,Instruction: SLDT,01/10/2009,"https://handlers.sans.org/tliston/ThwartingVMDetection_Liston_Skoudis.pdf 
+https://www.isi.edu/~mirkovic/publications/cardinaljournal.pdf 
+https://hypcode.org/public/publications/dissertation-2007-wildcat.pdf ",,,https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2012/BH_US_12_Branco_Scientific_Academic_WP.pdf,,"https://core.ac.uk/download/pdf/34612995.pdf
+https://www.exploit-db.com/docs/english/34591-breaking-the-sandbox.pdf
+https://www.botconf.eu/wp-content/uploads/2014/12/2014-2.7-Bypassing-Sandboxes-for-Fun.pdf",https://www.theses.fr/2015GREAM065.pdf,"https://resources.infosecinstitute.com/how-malware-detects-virtualized-environment-and-its-countermeasures-an-overview/ 
+https://link.springer.com/chapter/10.1007/978-3-319-33630-5_22
+https://www.digitalwhisper.co.il/files/Zines/0x45/DW69-1-AntiVirtualization.pdf","https://www.slideshare.net/ThomasRoccia/sandbox-evasion-cheat-sheet
+http://www.antihackingonline.com/2017/05/",https://sreelakshmip.wordpress.com/2018/03/20/devil-detect-virtual-machine-in-linux/,http://dione.lib.unipi.gr/xmlui/bitstream/handle/unipi/12112/Papadopoulos_1629.pdf?sequence=1&isAllowed=y,4
+Table Descr,Instruction: SGDT,01/10/2009,,,,,,,,,,,,
+,Instruction: SIDT,01/10/2009,,,,,,,,,,,,
+Traps,Instruction: INT 3,01/10/2009,"https://www.isi.edu/~mirkovic/publications/cardinaljournal.pdf 
+http://0b4af6cdc2f0c5998459-c0245c5c937c5dedcca3f1764ecc9b2f.r43.cf2.rackcdn.com/16369-sec14-paper-shi.pdf",,https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf,"https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2012/BH_US_12_Branco_Scientific_Academic_WP.pdf
+https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2012/12/04/TR-HGI-2012-001.pdf",,https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-shi.pdf,"https://pdfs.semanticscholar.org/1218/58baabe1d28992b7efb370730ac391b45d10.pdf
+http://pirate-network.com/upload/files/w_pacb40.pdf
+https://docplayer.net/74835930-Technical-report-the-use-of-packers-obfuscators-and-encryptors-in-modern-malware-paul-moon-rhul-ma-march-2015.html ",https://arielkoren.com/blog/2016/11/01/ursnif-malware-deep-technical-dive/,"https://www.isi.edu/~mirkovic/publications/apate.pdf
+https://www.deepinstinct.com/2017/12/27/common-anti-debugging-techniques-in-the-malware-landscape/
+https://link.springer.com/article/10.1007/s11416-017-0291-9?shared-article-renderer
+https://scholar.dsu.edu/cgi/viewcontent.cgi?article=1007&context=ccspapers
+https://www.iij.ad.jp/en/dev/iir/pdf/iir_vol34_EN.pdf
+https://dspace.library.uvic.ca/bitstream/handle/1828/7935/Ersan_Erkan_MSc_2017.pdf?sequence=1
+https://research.vu.nl/files/42585735/complete%20dissertation.pdf","https://arxiv.org/pdf/1811.01190
+http://webthesis.biblio.polito.it/9040/1/tesi.pdf
+https://terrorgum.com/tfox/books/learningmalwareanalysis_ebook.pdf
+","https://www.researchgate.net/publication/328758559_Malware_Dynamic_Analysis_Evasion_Techniques_A_Survey
+https://blog.f-secure.com/cowspot-real-time-module-stomping-detection/ 
+https://scholar.dsu.edu/cgi/viewcontent.cgi?article=1326&context=theses 
+https://www.airoav.com/installcore-obfuscation-analysis/
+http://dione.lib.unipi.gr/xmlui/bitstream/handle/unipi/12112/Papadopoulos_1629.pdf?sequence=1&isAllowed=y",2
+,Instruction: INT 1,01/10/2009,http://download.nai.com/Products/mcafee-avert/whitepapers/akapoor_rootkits1.pdf,,,https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2012/BH_US_12_Branco_Scientific_Academic_WP.pdf,https://web.fe.up.pt/~ei08072/lib/exe/fetch.php?media=unpacking_gaspar_furtado.pdf,,http://pirate-network.com/upload/files/w_pacb40.pdf,,https://www.isi.edu/~mirkovic/publications/apate.pdf ,,"https://resources.infosecinstitute.com/anti-debugging-and-anti-vm-techniques-and-anti-emulation/
+https://www.apriorit.com/dev-blog/367-anti-reverse-engineering-protection-techniques-to-use-before-releasing-software 
+https://archive.org/stream/AlexMatrosovEugeneRodionovSergeyBratusRootkitsAndBootkitsReversingModernMalwareA/Alex%20Matrosov%2C%20Eugene%20Rodionov%2C%20Sergey%20Bratus%20-%20Rootkits%20and%20Bootkits_%20Reversing%20Modern%20Malware%20and%20Next%20Generation%20Threats-No%20Starch%20Press%20%282019%29_djvu.txt",6
+,Instruction: INT 2D,01/01/2015,,,,,,,https://docplayer.net/74835930-Technical-report-the-use-of-packers-obfuscators-and-encryptors-in-modern-malware-paul-moon-rhul-ma-march-2015.html,,https://www.isi.edu/~mirkovic/publications/apate.pdf ,https://sites.hofstra.edu/xfu/,https://www.researchgate.net/publication/332849052_SoK_Using_Dynamic_Binary_Instrumentation_for_Security_And_How_You_May_Get_Caught_Red_Handed,8
+,Instruction: VPCEXT,01/04/2017,,,,,,,,,"https://www.mcafee.com/enterprise/en-us/assets/reports/rp-quarterly-threats-jun-2017.pdf
+https://www.slideshare.net/ThomasRoccia/sandbox-evasion-cheat-sheet ",,https://www.carbonblack.com/blog/cb-tau-threat-intelligence-notification-karagany-malware/,10
+,Instruction: 0xf1 - IceBP,01/01/2012,,,,"http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.645.6257&rep=rep1&type=pdf
+https://www.cs.ucr.edu/~heng/pubs/v2e.pdf 
+https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=1238&context=etd_projects ",,https://core.ac.uk/download/pdf/34612995.pdf,https://csis.gmu.edu/ksun/publications/Malt-sp2015.pdf,"https://link.springer.com/chapter/10.1007/978-3-319-33630-5_22
+https://web.eecs.umich.edu/~weimerw/students/kleach-dissertation.pdf",,"http://www.os2museum.com/wp/icebp-finally-documented/
+https://link.springer.com/content/pdf/10.1007%2F978-3-319-93411-2.pdf",,7
+,Instruction: POP SS,01/04/2011,,,https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.398.7644&rep=rep1&type=pdf,,,,,"https://www.isi.edu/~mirkovic/publications/apate.pdf
+https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2012/BH_US_12_Branco_Scientific_Academic_WP.pdf 
+https://freesoft.dev/program/110137386",,https://www.apriorit.com/dev-blog/367-anti-reverse-engineering-protection-techniques-to-use-before-releasing-software,8
+Timing,GetTickCount,01/10/2009,"https://www.isi.edu/~mirkovic/publications/cardinaljournal.pdf
+https://sites.cs.ucsb.edu/~chris/research/doc/ndss09_cluster.pdf
+https://www.virusbulletin.com/uploads/pdf/conference_slides/2009/Mandl-etal-VB2009.pdf 
+https://community.broadcom.com/symantecenterprise/viewdocument?DocumentKey=230d68b2-c80f-4436-9c09-ff84d049da33&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments ",,https://www.fireeye.com/blog/threat-research/2011/01/the-dead-giveaways-of-vm-aware-malware.html,,,"https://core.ac.uk/download/pdf/34612995.pdf
+https://www.ffri.jp/assets/files/research/research_papers/bheu14_chubachi_public_EN.pdf ","https://unit42.paloaltonetworks.com/ticked-off-upatre-malwares-simple-anti-analysis-trick-to-defeat-sandboxes/
+http://docs.huihoo.com/rsaconference/usa-2015/crwd-t08-evasive-malware-exposed-and-deconstructed.pdf 
+https://cofense.com/upatre-malware-anti-sandboxing-mechanism/ 
+http://dhilung.com/publications/scalable-automated-evasive-malware-analysis-dissertation-dkirat-2015.pdf 
+https://sites.cs.ucsb.edu/~vigna/publications/2015_CCS_MalGene.pdf 
+https://www.vmray.com/cyber-security-blog/a-pafish-primer/ ","https://blog.checkpoint.com/wp-content/uploads/2016/10/DefeatingSandBoxEvasion-VB2016_CheckPoint.pdf
+https://www.netskope.com/blog/nitol-botnet-makes-resurgence-evasive-sandbox-analysis-technique
+https://pentest.blog/art-of-anti-detection-1-introduction-to-av-detection-techniques/
+http://blog.morphisec.com/evasive-malware-campaign-with-faked-hm-revenue-and-customs-attachment","https://www.lastline.com/labsblog/malware-evasion-techniques/
+https://www.deepinstinct.com/2017/12/27/common-anti-debugging-techniques-in-the-malware-landscape/
+https://link.springer.com/article/10.1007/s11416-017-0291-9?shared-article-renderer
+https://www.isi.edu/~mirkovic/publications/apate.pdf 
+https://www.first.org/resources/papers/conf2017/Countering-Innovative-Sandbox-Evasion-Techniques-Used-by-Malware.pdf
+https://www.blackhat.com/docs/eu-17/materials/eu-17-Polino-Hiding-Pins-Artifacts-To-Defeat-Evasive-Malware.pdf
+https://www.mrg-effitas.com/wp-content/uploads/2017/07/MRG_Ukatemi_VMRay_report.pdf
+https://cysinfo.com/agent-tesla-new-spyware-variant-plucked-hackers-arena/
+http://materials.dagstuhl.de/files/17/17281/17281.MarioPolino.Slides.pdf 
+http://unprotect.tdgt.org/index.php/Anti-debugging ","https://arxiv.org/pdf/1811.01190
+https://www.colabug.com/2018/0705/3447099/ 
+https://www.trustedsec.com/blog/enumerating-anti-sandboxing-techniques/","https://yoroi.company/research/anti-debugging-techniques-from-a-complex-visual-basic-packer/
+https://www.mcafee.com/blogs/other-blogs/mcafee-labs/evolution-of-malware-sandbox-evasion-tactics-a-retrospective-study/ 
+https://www.dimva2019.org/wp-content/uploads/sites/31/2019/06/DIMVA19-slides-13.pdf 
+https://scholar.dsu.edu/cgi/viewcontent.cgi?article=1326&context=theses
+https://cybaze.it/wp-content/uploads/2019/09/Anti-Debugging-Techniques-VB-Packer.pdf
+https://www.welivesecurity.com/wp-content/uploads/2019/07/ESET_Okrum_and_Ketrican.pdf 
+https://littlefield.co/threes-a-crowd-new-trickbot-emotet-ryuk-ransomware-16d1e25f72f4 
+https://www.infoblox.com/wp-content/uploads/threat-intelligence-report-malicious-activity-report-azorult-infostealer.pdf ",3
+,Instruction: RDTSC/D,01/10/2009,"https://www.isi.edu/~mirkovic/publications/cardinaljournal.pdf
+https://www.blackhat.com/presentations/bh-usa-06/BH-US-06-Bilar.pdf 
+https://www.usenix.org/legacy/events/hotos07/tech/full_papers/garfinkel/garfinkel_html/index.html 
+http://commons.erau.edu/cgi/viewcontent.cgi?article=1200&context=jdfsl 
+https://hypcode.org/public/publications/dissertation-2007-wildcat.pdf 
+https://community.broadcom.com/symantecenterprise/viewdocument?DocumentKey=230d68b2-c80f-4436-9c09-ff84d049da33&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments ",,,,,https://www.lastline.com/labsblog/not-so-fast-my-friend-using-inverted-timing-attacks-to-bypass-dynamic-analysis/,http://purl.galileo.usg.edu/uga_etd/dash_sambitesh_201512_ms,"https://www.vmray.com/cyber-security-blog/sandbox-evasion-techniques-part-2/
+https://www.christian-rossow.de/publications/detectvt-dimva2016.pdf 
+https://www.christian-rossow.de/publications/sandprint-raid2016.pdf 
+https://www.sit.fraunhofer.de/fileadmin/dokumente/Anwendertag_IT-Forensik/2016/Vortrag_Brengel_Evading-Malware-Sandboxes.pdf?_=1475564649 
+https://web.eecs.umich.edu/~weimerw/students/kleach-dissertation.pdf 
+https://hal.inria.fr/hal-01369566/document 
+https://www.blackhat.com/docs/us-16/materials/us-16-Bulazel-AVLeak-Fingerprinting-Antivirus-Emulators-For-Advanced-Malware-Evasion.pdf 
+https://blog.checkpoint.com/wp-content/uploads/2016/05/Tesla-crypt-whitepaper_V3.pdf","https://www.blackhat.com/docs/eu-17/materials/eu-17-Polino-Hiding-Pins-Artifacts-To-Defeat-Evasive-Malware.pdf 
+https://www.slideshare.net/FabioRosato/symbolic-execution-of-malicious-software-countering-sandbox-evasion-techniques 
+https://www.isi.edu/~mirkovic/publications/apate.pdf
+https://www.ndss-symposium.org/wp-content/uploads/2017/09/lo-phi-low-observable-physical-host-instrumentation-malware-analysis.pdf
+http://materials.dagstuhl.de/files/17/17281/17281.MarioPolino.Slides.pdf ","http://www.academia.edu/35779182/A_Survey_On_Automated_Dynamic_Malware_Analysis_Evasion_and_Counter-Evasion_PC_Mobile_and_Web
+https://sreelakshmip.wordpress.com/2018/03/20/devil-detect-virtual-machine-in-linux/ 
+https://ether.gtisc.gatech.edu/ether_ccs_2008.pdf ","https://www.researchgate.net/publication/328758559_Malware_Dynamic_Analysis_Evasion_Techniques_A_Survey
+https://link.springer.com/article/10.1007/s11416-019-00335-w 
+https://www.ru.nl/publish/pages/769526/z6_timvandijk_masterthesis.pdf 
+https://www.cyber-threat-intelligence.com/publications/ATTACK-Securecomm2019-evolution.pdf 
+https://daehee87.github.io/data/qemu.pdf ",5
+,QueryPerformanceCounter,01/10/2009,"https://www.isi.edu/~mirkovic/publications/cardinaljournal.pdf
+https://community.broadcom.com/symantecenterprise/viewdocument?DocumentKey=230d68b2-c80f-4436-9c09-ff84d049da33&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments 
+http://www.nynaeve.net/?m=200701 ",,https://issuu.com/fernandogr/docs/tbo_01_2010,https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2012/BH_US_12_Branco_Scientific_Academic_WP.pdf,,https://core.ac.uk/download/pdf/34612995.pdf,"https://www.theses.fr/2015GREAM065.pdf
+https://pdfs.semanticscholar.org/4410/1b90c898d22902abd59983272e1cb2d2f9eb.pdf ","https://www.blackhat.com/docs/us-16/materials/us-16-Bulazel-AVLeak-Fingerprinting-Antivirus-Emulators-For-Advanced-Malware-Evasion.pdf
+https://link.springer.com/chapter/10.1007/978-3-319-33630-5_22 ","https://www.deepinstinct.com/2017/12/27/common-anti-debugging-techniques-in-the-malware-landscape/
+https://www.isi.edu/~mirkovic/publications/apate.pdf
+ http://www.blackstormsecurity.com/docs/FOAATTB.pdf ","https://arxiv.org/pdf/1811.01190
+https://www.dimva2019.org/wp-content/uploads/sites/31/2019/06/DIMVA19-slides-13.pdf 
+https://cyber.wtf/category/analysis/ ","https://www.researchgate.net/publication/328758559_Malware_Dynamic_Analysis_Evasion_Techniques_A_Survey
+https://aavar.org/AVAR2019_Papers.pdf ",3
+,GetLocalTime,01/10/2009,"https://www.isi.edu/~mirkovic/publications/cardinaljournal.pdf
+http://web.cs.ucdavis.edu/~su/publications/asplos06.pdf
+http://bitblaze.cs.berkeley.edu/papers/botnet_book-2007.pdf ",,https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf,,https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2013/US-13-Singh-Hot-Knives-Through-Butter-Evading-File-based-Sandboxes-WP.pdf,https://www.circl.lu/pub/tr-24/,,https://www.virusbulletin.com/uploads/pdf/conference_slides/2016/Skuratovich_Chailytko-vb-2016-defating-sandbox-evasion.pdf,"https://www.isi.edu/~mirkovic/publications/apate.pdf
+https://ora.ox.ac.uk/objects/uuid:ef3faf5e-7733-4460-bba4-9e18893dec1e/download_file?file_format=pdf&safe_filename=FinalThesisPostCorrections.pdf&type_of_work=Thesis ",https://arxiv.org/pdf/1811.01190,"https://www.researchgate.net/publication/328758559_Malware_Dynamic_Analysis_Evasion_Techniques_A_Survey
+https://blog.trendmicro.com/trendlabs-security-intelligence/operation-endtrade-finding-multi-stage-backdoors-that-tick/ 
+https://medium.com/@KamranSaifullah/practical-malware-analysis-chapter-3-lab03-04-solution-1d48c7dc31f5 ",4
+,timeGetTime,01/01/2011,,,"https://issuu.com/fernandogr/docs/tbo_01_2010 
+https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf ",https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2012/BH_US_12_Branco_Scientific_Academic_WP.pdf,,https://wikileaks.org/ciav7p1/cms/files/BypassAVDynamics.pdf,,,"https://www.blackhat.com/docs/eu-17/materials/eu-17-Polino-Hiding-Pins-Artifacts-To-Defeat-Evasive-Malware.pd 
+http://materials.dagstuhl.de/files/17/17281/17281.MarioPolino.Slides.pdf 
+https://link.springer.com/content/pdf/10.1007%2F978-3-319-60876-1.pdf ",,"https://www.dimva2019.org/wp-content/uploads/sites/31/2019/06/DIMVA19-slides-13.pdf 
+https://www.sciencedirect.com/science/article/pii/S016740481831246X ",7
+,NtQuerySystemTime,01/07/2015,,,,,,,https://www.slideshare.net/Cyphort/mmw-antisandbox-techniques,https://www.blackhat.com/docs/us-16/materials/us-16-Bulazel-AVLeak-Fingerprinting-Antivirus-Emulators-For-Advanced-Malware-Evasion.pdf,http://orca.cf.ac.uk/129815/1/2019nunesmaphd.pdf,,,9
+,GetSystemTimes,01/01/2019,,,,,,,,,,,,
+,Memory-R: KUSER->SYSTEM_TIME,01/10/2009,http://web.cs.ucdavis.edu/~su/publications/asplos06.pdf,,,,https://research.google.com/pubs/archive/42189.pdf,,,,https://link.springer.com/content/pdf/10.1007%2F978-3-319-60876-1.pdf,,,9
+,Memory-R: KUSER->INTERRUPT_TIME,01/10/2009,,,,,,,,,,,,
+,Memory-R: KUSER->TICK_COUNTER,01/10/2009,,,,,,,,,,,,
+,timeGetSystemTime,,,,,,,,,,,,,13
+,NtGetTickCount,01/10/2009,https://www.scribd.com/document/74422576/Reverend-Bill-Blunden-The-Rootkit-Arsenal-Escape-and-Evasion-in-the-Dark-Corners-of-the-System,,,,,,,,,,,11
+,QueryInterruptTime,,,,,,,,,,,,,13
+,NtQueryPerformanceCounter,01/10/2009,"http://roberto.greyhats.it/pubs/iciss09.pdf
+https://community.broadcom.com/symantecenterprise/viewdocument?DocumentKey=230d68b2-c80f-4436-9c09-ff84d049da33&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments ",,,,,,,https://www.openu.ac.il/lists/mediaserver_documents/IshaiRosenberg.pdf ,"http://unprotect.tdgt.org/index.php/Anti-debugging
+http://orca.cf.ac.uk/129815/1/2019nunesmaphd.pdf 
+https://link.springer.com/content/pdf/10.1007%2F978-3-319-60876-1.pdf ",,,9
+,QueryUnbiasedInterruptTimePrecise,,,,,,,,,,,,,13
+,QueryInterruptTimePrecise,,,,,,,,,,,,,13
+,GetTickCount64,01/07/2018,,,,,,,,,,,https://scholar.dsu.edu/cgi/viewcontent.cgi?article=1326&context=theses,11
+,QueryUnbiasedInterruptTime,,,,,,,,,,,,,13
+Stalling,waitForSingleObject/Ex,01/10/2016,,,,,,,,https://arielkoren.com/blog/2016/11/01/ursnif-malware-deep-technical-dive/,,https://medium.com/@MohamedR/antivirus-evasion-kaspersky-14-11-18-6458898a2051,https://kalilinuxtutorials.com/phantom-evasion/,8
+,Sleep/SleepEx,01/01/2013,,,,,"https://www.fireeye.com/blog/threat-research/2013/02/an-encounter-with-trojan-nap.html
+https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2013/US-13-Singh-Hot-Knives-Through-Butter-Evading-File-based-Sandboxes-WP.pdf 
+https://www.blackhat.com/us-13/archives.html ",https://www.exploit-db.com/docs/english/34591-breaking-the-sandbox.pdf,"https://www.sans.org/reading-room/whitepapers/malicious/sleeping-sandbox-35797
+http://pirate-network.com/upload/files/w_pacb40.pdf","https://blog.checkpoint.com/wp-content/uploads/2016/10/DefeatingSandBoxEvasion-VB2016_CheckPoint.pdf
+https://www.virusbulletin.com/uploads/pdf/conference_slides/2016/Skuratovich_Chailytko-vb-2016-defating-sandbox-evasion.pdf ",https://lospi.net/security/assembly/c/cpp/developing/software/2017/03/04/gargoyle-memory-analysis-evasion.html ,"https://pdfs.semanticscholar.org/eeaa/0ee92f9174d7309a19fbe657f06b3d1a899c.pdf
+https://arxiv.org/pdf/1811.01190 ","https://www.researchgate.net/publication/328758559_Malware_Dynamic_Analysis_Evasion_Techniques_A_Survey
+https://scholar.dsu.edu/cgi/viewcontent.cgi?article=1326&context=theses ",5
+,SetTimer,01/04/2015,,,,,,,http://docs.huihoo.com/rsaconference/usa-2015/crwd-t08-evasive-malware-exposed-and-deconstructed.pdf,"https://www.eit.lth.se/sprapport.php?uid=966
+https://unit42.paloaltonetworks.com/scarlet-mimic-years-long-espionage-targets-minority-activists/ ","https://www.first.org/resources/papers/conf2017/Countering-Innovative-Sandbox-Evasion-Techniques-Used-by-Malware.pdf
+",,"https://www.mcafee.com/blogs/other-blogs/mcafee-labs/evolution-of-malware-sandbox-evasion-tactics-a-retrospective-study/
+https://www.sciencedirect.com/science/article/pii/S016740481831246X 
+https://www.virusbulletin.com/virusbulletin/2019/10/vb2019-paper-exploring-emotet-elaborate-everyday-enigma/ ",8
+,SetWaitableTimer/Ex,01/01/2017,,,,,,,https://research.thea.ie/bitstream/handle/20.500.12065/1189/Malware%20Analysis%20And%20Antivirus%20Signature%20Creation.pdf?sequence=1&isAllowed=y,,https://lospi.net/security/assembly/c/cpp/developing/software/2017/03/04/gargoyle-memory-analysis-evasion.html,"https://labs.f-secure.com/blog/experimenting-bypassing-memory-scanners-with-cobalt-strike-and-gargoyle/
+https://blackhoodie.re/assets/archive/hidden_in_plain_sight_blackhoodie.pdf 
+https://www.slideshare.net/MSbluehat/bluehat-v18-memory-resident-implants-code-injection-is-alive-and-well ",,9
+,CreateTimerQueueTimer,01/07/2017,,,,,,,,,"https://blog.trendmicro.com/trendlabs-security-intelligence/new-emotet-hijacks-windows-api-evades-sandbox-analysis/
+https://securityaffairs.co/wordpress/65693/malware/emotet-evasion-techniques.html
+https://www.zscaler.com/blogs/research/look-recent-emotet-campaigns-august-2017 ","https://blog.malwarebytes.com/threat-analysis/2018/03/hancitor-fileless-attack-with-a-copy-trick/
+https://www.securityweek.com/emotet-trojan-variant-evades-malware-analysis ",https://cyware.com/news/the-evolution-of-the-infamous-emotet-banking-trojan-28f517ac/,9
+,NtDelayExecution,01/10/2009,https://www.researchgate.net/figure/A-classification-of-malware-detection-techniques_fig1_229008321,,,https://tklengyel.com/thesis.pdf,"https://www.fireeye.com/blog/threat-research/2013/02/an-encounter-with-trojan-nap.html
+https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2013/US-13-Singh-Hot-Knives-Through-Butter-Evading-File-based-Sandboxes-WP.pdf
+https://www.blackhat.com/us-13/archives.html ",,"http://docs.huihoo.com/rsaconference/usa-2015/crwd-t08-evasive-malware-exposed-and-deconstructed.pdf
+https://www.theses.fr/2015GREAM065.pdf 
+https://projekter.aau.dk/projekter/files/213481767/Report_15gr1020.pdf ","https://blog.checkpoint.com/wp-content/uploads/2016/10/DefeatingSandBoxEvasion-VB2016_CheckPoint.pdf
+https://www.sans.org/reading-room/whitepapers/forensics/detecting-malware-sandbox-evasion-techniques-36667 
+https://www.virusbulletin.com/uploads/pdf/conference_slides/2016/Skuratovich_Chailytko-vb-2016-defating-sandbox-evasion.pdf
+https://arxiv.org/pdf/1603.06028",https://www.isaca.org/resources/isaca-journal/issues/2017/volume-6/evasive-malware-tricks-how-malware-evades-detection-by-sandboxes,"https://pdfs.semanticscholar.org/eeaa/0ee92f9174d7309a19fbe657f06b3d1a899c.pdf
+https://www.bitdam.com/2018/04/30/sandboxes-are-not-foolproof/ ","https://www.mcafee.com/blogs/other-blogs/mcafee-labs/evolution-of-malware-sandbox-evasion-tactics-a-retrospective-study/
+https://www.deepinstinct.com/2019/11/24/malware-evasion-techniques-part-3-anti-sandboxing/
+https://www.sciencedirect.com/science/article/pii/S016740481831246X 
+https://resources.infosecinstitute.com/virtual-machine-introspection-in-malware-analysis-use-case/",4
+,timeSetEvent,01/01/2017,,,,,,,,,https://www.first.org/resources/papers/conf2017/Countering-Innovative-Sandbox-Evasion-Techniques-Used-by-Malware.pdf,,,11
+,icmpSendEcho/2/Ex,01/04/2018,,,,,,,,,,https://www.lastline.com/labsblog/evasive-monero-miners/,,11
+HI,GetCursorPos,01/04/2014,,,,,,"https://www.fireeye.com/blog/threat-research/2014/06/turing-test-in-reverse-new-sandbox-evasion-techniques-seek-human-interaction.html
+https://core.ac.uk/download/pdf/34612995.pdf ",https://securityintelligence.com/news/tinba-malware-watches-mouse-movements-screen-activity-to-avoid-sandbox-detection/ ,"https://link.springer.com/chapter/10.1007/978-3-319-33630-5_22
+https://web.eecs.umich.edu/~weimerw/students/kleach-dissertation.pdf ",https://www.slideshare.net/FabioRosato/symbolic-execution-of-malicious-software-countering-sandbox-evasion-techniques,"https://blogs.cisco.com/security/dont-let-malware-slip-through-your-fingers
+https://arxiv.org/pdf/1811.01190 
+https://techspective.net/2018/05/11/attackers-devise-evasive-techniques-to-exploit-microsoft-equation-vulnerability/
+https://threatpost.com/delphi-packer-looks-for-human-behavior-before-deploying-payload/137609/","https://www.researchgate.net/publication/328758559_Malware_Dynamic_Analysis_Evasion_Techniques_A_Survey
+https://securitynews.sonicwall.com/xmlpost/latest-remcos-remote-control-surveillance-software-v2-5-0-is-being-used-by-malware-authors/ 
+https://securityaffairs.co/wordpress/88109/malware/delphi-wrapper-rats.html",5
+,GetLastInputInfo,01/07/2017,,,,,,,,,"https://www.lastline.com/labsblog/malware-evasion-techniques/
+https://medium.com/@AntiSec_Inc/basic-sandbox-evasion-with-python-573da582ef3 ","https://arxiv.org/pdf/1811.01190
+https://www.fireeye.com/blog/threat-research/2018/09/increased-use-of-delphi-packer-to-evade-malware-classification.html 
+https://threatpost.com/delphi-packer-looks-for-human-behavior-before-deploying-payload/137609/ ",https://www.researchgate.net/publication/328758559_Malware_Dynamic_Analysis_Evasion_Techniques_A_Survey ,9
+Registry,NtOpenKey/Ex,01/10/2015,,,,,,,https://sites.cs.ucsb.edu/~vigna/publications/2015_CCS_MalGene.pdf,,,https://www.jstage.jst.go.jp/article/transinf/E101.D/11/E101.D_2017ICP0011/_pdf,,9
+,NtEnumerateKey,01/10/2009,https://www.exploit-db.com/papers/42873,,,https://res.mdpi.com/d_attachment/futureinternet/futureinternet-04-00971/article_deploy/futureinternet-04-00971.pdf,,https://core.ac.uk/download/pdf/34612995.pdf,"http://dhilung.com/publications/scalable-automated-evasive-malware-analysis-dissertation-dkirat-2015.pdf
+https://sites.cs.ucsb.edu/~vigna/publications/2015_CCS_MalGene.pdf 
+https://repozitorium.omikk.bme.hu/bitstream/handle/10890/1409/ertekezes.pdf;sequence=1 ","https://link.springer.com/chapter/10.1007/978-3-319-33630-5_22
+https://www.openu.ac.il/lists/mediaserver_documents/IshaiRosenberg.pdf ",,,https://www.sciencedirect.com/science/article/pii/S2214212619300109,6
+,NtQueryValueKey,01/10/2009,https://www.exploit-db.com/papers/42873 ,,,,,,"https://sites.cs.ucsb.edu/~vigna/publications/2015_CCS_MalGene.pdf
+http://dhilung.com/publications/scalable-automated-evasive-malware-analysis-dissertation-dkirat-2015.pdf 
+http://www.ttcenter.ir/ArticleFiles/ENARTICLE/3614.pdf ",,http://orca.cf.ac.uk/129815/1/2019nunesmaphd.pdf,,"https://www.sciencedirect.com/science/article/pii/S2214212619300109
+https://core.ac.uk/download/pdf/287598483.pdf 
+https://www.academia.edu/39543734/Selecting_Prominent_API_Calls_and_Labeling_Malicious_Samples_for_Effective_Malware_Family_Classification ",8
+,NtEnumerateValueKey,01/10/2009,"https://sites.cs.ucsb.edu/~chris/research/doc/ndss09_cluster.pdf
+https://www.slideshare.net/kurtbaumgartner/baumgartner-vb2007-presentation 
+https://www.exploit-db.com/papers/42873 ",,,https://res.mdpi.com/d_attachment/futureinternet/futureinternet-04-00971/article_deploy/futureinternet-04-00971.pdf,,,"https://www.theses.fr/2015GREAM065.pdf
+https://repozitorium.omikk.bme.hu/bitstream/handle/10890/1409/ertekezes.pdf;sequence=1","https://www.redblue.team/2016/02/a-soft-introduction-to-malware-analysis.html
+https://www.openu.ac.il/lists/mediaserver_documents/IshaiRosenberg.pdf 
+https://pdfs.semanticscholar.org/515b/f8dd74147dc4e46a68e8e098dbc1171a9747.pdf ",https://www.researchgate.net/publication/263606038_The_Cousins_of_Stuxnet_Duqu_Flame_and_Gauss,"https://research.checkpoint.com/2018/deep-dive-upas-kit-vs-kronos/
+https://willijo4dada.wordpress.com/ ","https://www.sciencedirect.com/science/article/pii/S2214212619300109
+https://orca.cf.ac.uk/129815/1/2019nunesmaphd.pdf ",5
+System Environment,NtQuerySystemInformation(PHYSICAL_MEMORY_INFO),01/10/2009,"http://roberto.greyhats.it/pubs/iciss09.pdf 
+https://www.exploit-db.com/papers/42873 ",,,https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2012/BH_US_12_Branco_Scientific_Academic_WP.pdf,,"https://core.ac.uk/download/pdf/34612995.pdf
+https://oaktrust.library.tamu.edu/bitstream/handle/1969.1/153235/XU-DISSERTATION-2014.pdf?sequence=1 ","https://sites.cs.ucsb.edu/~vigna/publications/2015_CCS_MalGene.pdf
+https://www.lastline.com/labsblog/dissecting-turla-rootkit-malware-using-dynamic-analysis/ ","https://www.sentinelone.com/blog/sfg-furtims-parent/
+https://link.springer.com/chapter/10.1007/978-3-319-33630-5_22 
+https://web.eecs.umich.edu/~weimerw/students/kleach-dissertation.pdf ","https://www.blackhat.com/docs/eu-17/materials/eu-17-Polino-Hiding-Pins-Artifacts-To-Defeat-Evasive-Malware.pdf
+http://materials.dagstuhl.de/files/17/17281/17281.MarioPolino.Slides.pdf 
+http://www.blackstormsecurity.com/docs/FOAATTB.pdf ","https://deceptivebytes.com/2018/07/09/tricks-used-by-malware-authors-to-protect-their-malicious-code-from-detection/
+https://arxiv.org/pdf/1811.01190
+https://download.bitdefender.com/resources/files/News/CaseStudies/study/200/Bitdefender-Whitepaper-RADrat-crea2645-A4-en-EN-interactive.pdf 
+https://willijo4dada.wordpress.com/ ","https://www.researchgate.net/publication/328758559_Malware_Dynamic_Analysis_Evasion_Techniques_A_Survey
+https://www.ru.nl/publish/pages/769526/z6_timvandijk_masterthesis.pdf 
+https://aavar.org/AVAR2019_Papers.pdf ",3
+,FindWindow,01/10/2009,,,"http://wombat-project.eu/WP5/FP7-ICT-216026-Wombat_WP5_D23_V01_Early-warning-system-experimental-report.pdf
+https://issuu.com/fernandogr/docs/tbo_01_2010 
+https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf ",https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2012/BH_US_12_Branco_Scientific_Academic_WP.pdff,,"https://core.ac.uk/download/pdf/34612995.pdf
+https://www.exploit-db.com/docs/english/34591-breaking-the-sandbox.pdf ","https://pdfs.semanticscholar.org/1218/58baabe1d28992b7efb370730ac391b45d10.pdf
+https://www.malwinator.com/2015/12/13/the-usual-anti-debugging-tricks-used-by-malware/ ","https://www.mcafee.com/blogs/other-blogs/mcafee-labs/overview-malware-self-defense-protection/
+https://www.profsandhu.com/ics/2016%20Moustafa%20Saleh.pdf ","https://www.slideshare.net/ThomasRoccia/malware-evasion-techniques
+https://www.isi.edu/~mirkovic/publications/apate.pdf 
+http://unprotect.tdgt.org/index.php/Anti-debugging 
+https://www.sciencedirect.com/science/article/pii/S1742287617301949 
+http://www.blackstormsecurity.com/docs/FOAATTB.pdf ","https://arxiv.org/pdf/1811.01190
+https://www.lasca.ic.unicamp.br/paulo/papers/2017-SBSeg-marcus.botacin-anti.anti.analysis.evasive.malware.pdf 
+https://bradscholars.brad.ac.uk/bitstream/handle/10454/15863/ANamanya-10022889%20PhD%20Final%20Submission.pdf?sequence=1 ","https://www.researchgate.net/publication/328758559_Malware_Dynamic_Analysis_Evasion_Techniques_A_Survey
+https://appriver.com/blog/phorphiextrik-botnet-campaign-leads-to-multiple-infections-ransomware-banking-trojan-cryptojacking ",4
+,GetComputerName,01/07/2014,,,,,,https://oaktrust.library.tamu.edu/bitstream/handle/1969.1/153235/XU-DISSERTATION-2014.pdf?sequence=1,,,"https://unit42.paloaltonetworks.com/unit42-2016-updates-shifu-banking-trojan/
+https://www.slideshare.net/ThomasRoccia/wannacry-technical-insight-and-lessons-learned 
+https://attack.mitre.org/techniques/T1082/ ",https://terrorgum.com/tfox/books/learningmalwareanalysis_ebook.pdf,"https://orbilu.uni.lu/bitstream/10993/40577/1/cecc2019GLS.pdf
+http://web.archive.org/web/20200206131836/https://orbilu.uni.lu/bitstream/10993/40577/1/cecc2019GLS.pdf
+",8
+,IsDebuggerPresent,01/10/2009,"https://community.broadcom.com/symantecenterprise/viewdocument?DocumentKey=230d68b2-c80f-4436-9c09-ff84d049da33&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab= 
+http://www.damogran.de/PandorasBochs.pdf 
+http://web.archive.org/web/20120105112211/http://www.damogran.de/PandorasBochs.pdf  
+https://www.acsac.org/2006/papers/122.pdf  
+http://index-of.es/Viruses/T/The%20Art%20of%20Computer%20Virus%20Research%20and%20Defense.pdf  
+https://www.blackhat.com/presentations/bh-usa-09/BLUNDEN/BHUSA09-Blunden-AntiForensics-PAPER.pdf   ",,https://www.fireeye.com/blog/threat-research/2011/01/the-dead-giveaways-of-vm-aware-malware.html,"https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2012/BH_US_12_Branco_Scientific_Academic_WP.pdf
+https://sites.cs.ucsb.edu/~chris/research/doc/acmsurvey12_dynamic.pdf ",https://www.owasp.org/images/7/7e/OWASPIreland-Limerick_20130221_Malware_Analysis.pdf,https://ynu.repo.nii.ac.jp/?action=repository_action_common_download&item_id=4943&item_no=1&attribute_id=20&file_no=1,"https://www.vmray.com/cyber-security-blog/a-pafish-primer/
+https://cyberforensicator.com/wp-content/uploads/2017/01/lo-phi-low-observable-physical-host-instrumentation-malware-analysis.pdf ","http://blog.morphisec.com/evasive-malware-campaign-with-faked-hm-revenue-and-customs-attachment
+https://web.eecs.umich.edu/~weimerw/students/kleach-dissertation.pdf 
+https://pentest.blog/art-of-anti-detection-1-introduction-to-av-detection-techniques/
+https://link.springer.com/chapter/10.1007/978-3-319-33630-5_22
+https://www.mcafee.com/blogs/other-blogs/mcafee-labs/overview-malware-self-defense-protection/  ","https://www.deepinstinct.com/2017/12/27/common-anti-debugging-techniques-in-the-malware-landscape/ 
+https://hydrasky.com/malware-analysis/use-ollydbg-bypass-detect-debugger-isdebuggerpresent/ 
+https://www.slideshare.net/ThomasRoccia/malware-evasion-techniques 
+http://unprotect.tdgt.org/index.php/Anti-debugging 
+https://dspace.library.uvic.ca/bitstream/handle/1828/7935/Ersan_Erkan_MSc_2017.pdf?sequence=1 ","https://arxiv.org/pdf/1811.01190
+https://www.lasca.ic.unicamp.br/paulo/papers/2017-SBSeg-marcus.botacin-anti.anti.analysis.evasive.malware.pdf 
+https://www.rapid7.com/globalassets/_pdfs/whitepaperguide/rapid7-whitepaper-metasploit-framework-encapsulating-av-techniques.pdf ","https://published-prd.lanyonevents.com/published/rsaus19/sessionsFiles/13934/LAB4-W11_Evasion%20Tactics%20in%20Malware%20from%20the%20Inside%20Out.pdf
+https://www.researchgate.net/publication/328758559_Malware_Dynamic_Analysis_Evasion_Techniques_A_Survey 
+https://scholar.dsu.edu/cgi/viewcontent.cgi?article=1326&context=theses 
+https://resources.infosecinstitute.com/anti-debugging-and-anti-vm-techniques-and-anti-emulation/ 
+https://www.cyber-threat-intelligence.com/publications/ATTACK-Securecomm2019-evolution.pdf 
+https://securityaffairs.co/wordpress/88109/malware/delphi-wrapper-rats.html ",2
+,GetAdaptersInfo,01/10/2009,https://www.isi.edu/~mirkovic/publications/cardinaljournal.pdf,,,,,"http://oaktrust.library.tamu.edu/bitstream/handle/1969.1/153235/XU-DISSERTATION-2014.pdf?sequence=1
+https://practicalsecurityanalytics.com/threat-hunting-with-function-imports/ ",,https://www.mcafee.com/blogs/other-blogs/mcafee-labs/overview-malware-self-defense-protection/,,,"https://scholar.dsu.edu/cgi/viewcontent.cgi?article=1326&context=theses
+https://www.slideshare.net/attackcon2018/mitre-attckcon-20-flashback-with-attck-exploring-malware-history-with-attck-20032018-kris-oosthoek-delft-university ",8
+,GetDiskFreeSpace/Ex,01/10/2017,,,,,,,,,https://www.slideshare.net/FabioRosato/symbolic-execution-of-malicious-software-countering-sandbox-evasion-techniques,https://aavar.org/AVAR2019_Papers.pdf,,10
+,CheckRemoteDebuggerPresent,01/10/2009,"https://community.broadcom.com/symantecenterprise/viewdocument?DocumentKey=230d68b2-c80f-4436-9c09-ff84d049da33&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments
+http://web.archive.org/web/20120105112211/http://www.damogran.de/PandorasBochs.pdf  
+",,"https://issuu.com/fernandogr/docs/tbo_01_2010
+https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf ",https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2012/BH_US_12_Branco_Scientific_Academic_WP.pdf,,"https://core.ac.uk/download/pdf/34612995.pdf
+https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2014/11/21/Dissertation-Willems.pdf ","https://csis.gmu.edu/ksun/publications/Malt-sp2015.pdf 
+https://www.malwinator.com/2015/12/13/the-usual-anti-debugging-tricks-used-by-malware/ 
+https://docplayer.net/74835930-Technical-report-the-use-of-packers-obfuscators-and-encryptors-in-modern-malware-paul-moon-rhul-ma-march-2015.html ","https://web.eecs.umich.edu/~weimerw/students/kleach-dissertation.pdf
+https://link.springer.com/chapter/10.1007/978-3-319-33630-5_22 ","https://www.isi.edu/~mirkovic/publications/apate.pdf
+https://www.deepinstinct.com/2017/12/27/common-anti-debugging-techniques-in-the-malware-landscape/ 
+https://www.slideshare.net/ThomasRoccia/malware-evasion-techniques 
+http://unprotect.tdgt.org/index.php/Anti-debugging 
+https://dspace.library.uvic.ca/bitstream/handle/1828/7935/Ersan_Erkan_MSc_2017.pdf?sequence=1 
+https://hashnode.com/post/anti-debugging-and-anti-emulation-tricks-cj8072qmb00db2ewtmz47zndy ",https://arxiv.org/pdf/1811.01190,"https://published-prd.lanyonevents.com/published/rsaus19/sessionsFiles/13934/LAB4-W11_Evasion%20Tactics%20in%20Malware%20from%20the%20Inside%20Out.pdf
+https://www.apriorit.com/dev-blog/367-anti-reverse-engineering-protection-techniques-to-use-before-releasing-software 
+https://scholar.dsu.edu/cgi/viewcontent.cgi?article=1326&context=theses ",3
+,GetAdaptersAddresses,01/07/2017,,,,,,,,,"https://www.slideshare.net/FabioRosato/symbolic-execution-of-malicious-software-countering-sandbox-evasion-techniques
+http://www.vkremez.com/2017/07/lets-learn-extracting-trickbot-banker.html?view=classic ",,https://threatvector.cylance.com/en_us/home/blackberry-cylance-vs-tinba-banking-trojan.html ,10
+,GlobalMemoryStatusEx,01/10/2009,,,,,,,,,"https://www.slideshare.net/FabioRosato/symbolic-execution-of-malicious-software-countering-sandbox-evasion-techniques
+https://malware.news/t/unpacking-malware-series-venis-ransomware/13456 ",https://www.trustedsec.com/blog/enumerating-anti-sandboxing-techniques/,"https://www.mcafee.com/blogs/other-blogs/mcafee-labs/evolution-of-malware-sandbox-evasion-tactics-a-retrospective-study/
+https://aavar.org/AVAR2019_Papers.pdf ",9
+,NtQuerySystemInformation(0x23),01/10/2009,https://www.exploit-db.com/papers/42873,,https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf,,,,,,http://www.vkremez.com/2017/07/lets-learn-extracting-trickbot-banker.html?view=classic,https://arxiv.org/pdf/1811.01190,,8
+,DeviceIoControl,01/10/2009,https://www.exploit-db.com/papers/42873,,,,,,http://docs.huihoo.com/rsaconference/usa-2015/crwd-t08-evasive-malware-exposed-and-deconstructed.pdf,,"https://www.slideshare.net/FabioRosato/symbolic-execution-of-malicious-software-countering-sandbox-evasion-techniques
+https://www.elastic.co/blog/badrabbit-technical-analysis ","https://www.trustedsec.com/blog/enumerating-anti-sandboxing-techniques/
+https://terrorgum.com/tfox/books/learningmalwareanalysis_ebook.pdf 
+https://i.blackhat.com/us-18/Wed-August-8/us-18-Graeber-Subverting-Sysmon-Application-Of-A-Formalized-Security-Product-Evasion-Methodology-wp.pdf ","https://www.mcafee.com/blogs/other-blogs/mcafee-labs/evolution-of-malware-sandbox-evasion-tactics-a-retrospective-study/
+https://scholar.dsu.edu/cgi/viewcontent.cgi?article=1326&context=theses ",7
+,PEB→NumProcessors,01/07/2015,,,,,,,,,,https://www.trustedsec.com/blog/enumerating-anti-sandboxing-techniques/,,11
+,NtQueryObject after NtCreateDebugObject,01/01/2010,,,https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf,,,https://oaktrust.library.tamu.edu/bitstream/handle/1969.1/153235/XU-DISSERTATION-2014.pdf?sequence=1,,,"http://orca.cf.ac.uk/129815/1/2019nunesmaphd.pdf
+http://unprotect.tdgt.org/index.php/Anti-debugging 
+http://www.blackstormsecurity.com/docs/FOAATTB.pdf ",https://arxiv.org/pdf/1811.01190,https://www.apriorit.com/dev-blog/367-anti-reverse-engineering-protection-techniques-to-use-before-releasing-software,7
+WMI,ExecQuery,01/04/2012,,,,https://ioactive.com/wp-content/uploads/2012/06/skywiper.pdf,,http://www.fantaghost.com/in-depth-analysis-of-mmpifmxnth,,https://www.lastline.com/labsblog/party-like-its-1999-comeback-of-vba-malware-downloaders-part-1/,,"https://link.springer.com/content/pdf/10.1007%2F978-3-319-94147-9.pdf
+https://threatvector.cylance.com/en_us/home/unpacking-a-packer-powershell-obfuscation-using-securestring.html",https://posts.specterops.io/antimalware-scan-interface-detection-optics-analysis-methodology-858c37c38383,6
+Process Environment,NtSetContextThread(CONTEXT_DEBUG_REGISTERS),01/10/2009,https://community.broadcom.com/symantecenterprise/viewdocument?DocumentKey=230d68b2-c80f-4436-9c09-ff84d049da33&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocumentss,,,,,,,,,,https://www.apriorit.com/dev-blog/367-anti-reverse-engineering-protection-techniques-to-use-before-releasing-software,9
+,NtQueryInformationProcess(0x07),01/10/2009,,,,https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2012/BH_US_12_Branco_Scientific_Academic_WP.pdff,,,,,,,https://www.apriorit.com/dev-blog/367-anti-reverse-engineering-protection-techniques-to-use-before-releasing-software,10
+,NtSetInformationThread(0x11),01/10/2009,https://community.broadcom.com/symantecenterprise/viewdocument?DocumentKey=230d68b2-c80f-4436-9c09-ff84d049da33&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments,,https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf,https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2012/BH_US_12_Branco_Scientific_Academic_WP.pdf,,,https://csis.gmu.edu/ksun/publications/Malt-sp2015.pdf,https://web.eecs.umich.edu/~weimerw/students/kleach-dissertation.pdf,,,https://www.apriorit.com/dev-blog/367-anti-reverse-engineering-protection-techniques-to-use-before-releasing-software,6
+,NtQueryInformationProcess(0x1e),01/10/2009,,,https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf,,,,https://docplayer.net/88820827-Technical-report-the-use-of-packers-obfuscators-and-encryptors-in-modern-malware-paul-moon-rhul-isg-rhul-ma-4-march-2015.htmll,,,,"https://www.apriorit.com/dev-blog/367-anti-reverse-engineering-protection-techniques-to-use-before-releasing-software
+",9
+,NtQueryInformationProcess(0x1f),01/10/2009,https://community.broadcom.com/symantecenterprise/viewdocument?DocumentKey=230d68b2-c80f-4436-9c09-ff84d049da33&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments,,"https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf
+",,,,https://docplayer.net/88820827-Technical-report-the-use-of-packers-obfuscators-and-encryptors-in-modern-malware-paul-moon-rhul-isg-rhul-ma-4-march-2015.html,,https://link.springer.com/content/pdf/10.1007%2F978-3-319-60876-1.pdf,,"https://research.checkpoint.com/2019/2019-resurgence-of-smokeloader/
+https://www.apriorit.com/dev-blog/367-anti-reverse-engineering-protection-techniques-to-use-before-releasing-software
+http://malgenomeproject.org/papers/ccs19_timeplayer.pdf
+http://datacoresystems.ro/index.php/2019/07/page/5/
+
+
+",7
+,NtGetContextThread(CONTEXT_DEBUG_REGISTERS),01/10/2009,https://community.broadcom.com/symantecenterprise/viewdocument?DocumentKey=230d68b2-c80f-4436-9c09-ff84d049da33&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments,,,,,,,,,,"https://www.researchgate.net/publication/328758559_Malware_Dynamic_Analysis_Evasion_Techniques_A_Survey
+https://www.apriorit.com/dev-blog/367-anti-reverse-engineering-protection-techniques-to-use-before-releasing-software
+",10
+,DebugActiveProcess on Parent,01/10/2009,"
+https://community.broadcom.com/symantecenterprise/viewdocument?DocumentKey=230d68b2-c80f-4436-9c09-ff84d049da33&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments
+https://repo.zenk-security.com/Forensic/The%20Art%20of%20Memory%20Forensics%20-%20Detecting%20Malware%20and%20Threats%20in%20Windows,%20Linux,%20and%20Mac%20Memory%20(2014).pdf
+http://3.droppdf.com/files/Jh4JU/inside-windows-debugging.pdf",,"https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf
+http://wombat-project.eu/WP5/FP7-ICT-216026-Wombat_WP5_D23_V01_Early-warning-system-experimental-report.pdf",,,"http://www.codereversing.com/blog/archives/168
+https://doc.lagout.org/security/Forensic/The%20Art%20of%20Memory%20Forensics%20-%20Detecting%20Malware%20and%20Threats%20in%20Windows%2C%20Linux%2C%20and%20Mac%20Memory%20%282014%29.pdf
+https://stacks.stanford.edu/file/druid:ss149tg6315/anthony-dis-pro-augmented.pdf","https://csis.gmu.edu/ksun/publications/Malt-sp2015.pdf
+http://pirate-network.com/upload/files/w_pacb40.pdf",https://web.eecs.umich.edu/~weimerw/students/kleach-dissertation.pdf,https://archive.org/stream/windows-internals-part1-7th/windows-internals-part1-7th_djvu.txt,"https://arxiv.org/pdf/1811.01190
+https://bradscholars.brad.ac.uk/bitstream/handle/10454/15863/ANamanya-10022889%20PhD%20Final%20Submission.pdf?sequence=1
+",https://maff1t.github.io/AntiDebugging/,4
+,NtCreateThreadEx(HIDE_FROM_DEBUGGER),01/07/2015,,,,,,,"https://www.slideshare.net/enSilo/injection-on-steroids-codeless-code-injection-and-0day-techniques
+https://128.84.21.199/pdf/1606.01971 ",https://www.usenix.org/system/files/conference/woot16/woot16-paper-ispoglou.pdf,https://malware.news/t/ten-process-injection-techniques-a-technical-survey-of-common-and-trending-process-injection-techniques/13623,"https://blackhoodie.re/assets/archive/hidden_in_plain_sight_blackhoodie.pdf
+https://terrorgum.com/tfox/books/learningmalwareanalysis_ebook.pdf ","https://www.ru.nl/publish/pages/769526/z6_timvandijk_masterthesis.pdf
+https://published-prd.lanyonevents.com/published/rsaus19/sessionsFiles/13934/LAB4-W11_Evasion%20Tactics%20in%20Malware%20from%20the%20Inside%20Out.pdf 
+https://github.com/jthuraisamy/SysWhispers ",7
+File System,NtOpenFile,01/10/2009,"http://roberto.greyhats.it/pubs/iciss09.pdf
+http://wombat-project.eu/WP4/FP7-ICT-216026-Wombat_WP4_D08_V01_Specification_language_for_code_behaviour.pdf
+https://hypcode.org/public/publications/dissertation-2007-wildcat.pdf
+",,"http://wombat-project.eu/WP5/FP7-ICT-216026-Wombat_WP5_D23_V01_Early-warning-system-experimental-report.pdf
+https://www.scribd.com/document/74422576/Reverend-Bill-Blunden-The-Rootkit-Arsenal-Escape-and-Evasion-in-the-Dark-Corners-of-the-System","https://core.ac.uk/download/pdf/287598483.pdf
+https://sites.cs.ucsb.edu/~chris/research/doc/issta12_malmodels.pdf
+",,"https://oaktrust.library.tamu.edu/bitstream/handle/1969.1/153235/XU-DISSERTATION-2014.pdf?sequence=1
+","https://www.theses.fr/2015GREAM065.pdf
+https://128.84.21.199/pdf/1606.01971
+https://projekter.aau.dk/projekter/files/213481767/Report_15gr1020.pdf
+https://repozitorium.omikk.bme.hu/bitstream/handle/10890/1409/ertekezes.pdf;sequence=1
+","https://www.openu.ac.il/lists/mediaserver_documents/IshaiRosenberg.pdf
+http://seclab.cs.sunysb.edu/seclab/pubs/szeth.pdf
+https://pdfs.semanticscholar.org/515b/f8dd74147dc4e46a68e8e098dbc1171a9747.pdf","http://www.blackstormsecurity.com/docs/FOAATTB.pdf
+https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-ming.pdf
+https://issuu.com/apkfeast.com/docs/hackers_handbook
+https://www.cerias.purdue.edu/assets/pdf/bibtex_archive/2017-5.pdf
+","https://www.researchgate.net/publication/328673619_Automatically_Generating_Malware_Analysis_Reports_Using_Sandbox_Logs
+https://www.sciencedirect.com/science/article/pii/S0167404818302797
+https://dl.acm.org/ft_gateway.cfm?id=3129712&type=pdf
+https://www.conand.me/publications/viglianisi-systaint-2018.pdf
+https://research.aalto.fi/files/29744483/1_s2.0_S0167404818302797_main.pdf
+https://www.mdpi.com/2076-3417/8/7/1044/htm
+https://researchportal.helsinki.fi/files/121231338/1_s2.0_S0167404818302797_main.pdf","https://www.fortinet.com/blog/threat-research/lockergoga-ransomeware-targeting-critical-infrastructure
+https://core.ac.uk/download/pdf/287598483.pdf
+https://orca.cf.ac.uk/129815/1/2019nunesmaphd.pdf
+https://www.ru.nl/publish/pages/769526/b_coen_boot.pdf
+https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/targeted-ransomware-threat
+https://research.aalto.fi/files/29744483/1_s2.0_S0167404818302797_main.pdf
+https://kar.kent.ac.uk/71720/11/Hull2019_Article_RansomwareDeploymentMethodsAnd.pdf
+http://dr.ur.ac.rw/bitstream/handle/123456789/942/Masabo%27s%20Thesis.pdf?sequence=1&isAllowed=y
+https://jyx.jyu.fi/bitstream/handle/123456789/65803/1/978-951-39-7854-9_vaitos24102019.pdf
+",2
+,NtQueryAttributesFile,01/10/2009,"https://sites.cs.ucsb.edu/~chris/research/doc/ndss09_cluster.pdf
+http://wombat-project.eu/WP4/FP7-ICT-216026-Wombat_WP4_D08_V01_Specification_language_for_code_behaviour.pdf",,,,,,"https://128.84.21.199/pdf/1606.01971
+","https://www.openu.ac.il/lists/mediaserver_documents/IshaiRosenberg.pdf
+http://seclab.cs.sunysb.edu/seclab/pubs/szeth.pdf
+https://ir.stonybrook.edu/jspui/bitstream/11401/77253/1/Sze_grad.sunysb_0771E_12836.pdf
+","http://www.blackstormsecurity.com/docs/FOAATTB.pdf
+",,"https://www.academia.edu/39543734/Selecting_Prominent_API_Calls_and_Labeling_Malicious_Samples_for_Effective_Malware_Family_Classification
+http://dr.ur.ac.rw/bitstream/handle/123456789/942/Masabo%27s%20Thesis.pdf?sequence=1&isAllowed=y
+http://malgenomeproject.org/papers/ccs19_timeplayer.pdf
+",7
+,NtCreateFile,01/10/2009,"https://sites.cs.ucsb.edu/~chris/research/doc/ndss09_cluster.pdf
+http://roberto.greyhats.it/pubs/iciss09.pdf
+http://wombat-project.eu/WP4/FP7-ICT-216026-Wombat_WP4_D08_V01_Specification_language_for_code_behaviour.pdf
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.88.8664&rep=rep1&type=pdf
+https://hypcode.org/public/publications/dissertation-2007-wildcat.pdf
+https://www.exploit-db.com/exploits/42873
+https://nvd.nist.gov/feeds/xml/cve/trans/es/nvdcve-2006trans.xml.gz",http://www.cse.tkk.fi/fi/opinnot/T-110.6220/2010_Spring_Malware_Analysis_and_Antivirus_Tchnologies/luennot-files/T-110.6220_Kernel.pdf,http://wombat-project.eu/WP5/FP7-ICT-216026-Wombat_WP5_D23_V01_Early-warning-system-experimental-report.pdf,,"https://cuckoosandbox.org/assets/documents/US-13-Bremer-Mo-Malware-Mo-Problems-Cuckoo-Sandbox-Slides.pdf
+https://repository.library.northeastern.edu/files/neu:886/fulltext.pdf
+http://bit.ly/11AU02j",http://index-of.es/Varios-2/Advanced%20Malware%20Analysis.pdf,"http://dhilung.com/publications/scalable-automated-evasive-malware-analysis-dissertation-dkirat-2015.pdf
+https://sites.cs.ucsb.edu/~vigna/publications/2015_CCS_MalGene.pdf
+https://128.84.21.199/pdf/1606.01971
+https://projekter.aau.dk/projekter/files/213481767/Report_15gr1020.pdf
+","https://breakdev.org/defeating-antivirus-real-time-protection-from-the-inside/
+https://www.openu.ac.il/lists/mediaserver_documents/IshaiRosenberg.pdf
+http://seclab.cs.sunysb.edu/seclab/pubs/szeth.pdf
+","http://www.blackstormsecurity.com/docs/FOAATTB.pdf
+https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-ming.pdf
+","https://www.cyberbit.com/blog/endpoint-security/malware-mitigation-when-direct-system-calls-are-used/
+https://blog.malwarebytes.com/threat-analysis/2018/08/process-doppelganging-meets-process-hollowing_osiris/
+https://rbonichon.github.io/asi36/papers/p395-cheng.pdf
+https://dl.acm.org/ft_gateway.cfm?id=3129712&type=pdf
+https://www.jstage.jst.go.jp/article/transinf/E101.D/11/E101.D_2017ICP0011/_pdf
+https://www.mdpi.com/2076-3417/8/7/1044/htm
+https://arxiv.org/pdf/1806.10741
+https://blog.malwarebytes.com/threat-analysis/2018/08/process-doppelganging-meets-process-hollowing_osiris/
+","https://www.sciencedirect.com/science/article/pii/S2214212619300109
+https://resources.infosecinstitute.com/virtual-machine-introspection-in-malware-analysis-use-case/
+https://ired.team/offensive-security/defense-evasion/using-syscalls-directly-from-visual-studio-to-bypass-avs-edrs
+https://aavar.org/AVAR2019_Papers.pdf
+https://core.ac.uk/download/pdf/287598483.pdf
+https://www.ru.nl/publish/pages/769526/b_coen_boot.pdf
+https://orca.cf.ac.uk/129815/1/2019nunesmaphd.pdf
+https://www.welivesecurity.com/wp-content/uploads/2019/10/ESET_Attor.pdf
+http://dr.ur.ac.rw/bitstream/handle/123456789/942/Masabo%27s%20Thesis.pdf?sequence=1&isAllowed=y
+https://www.scribd.com/document/427902119/Learning-Malware-Analysis-Explore-pdf
+https://posts.specterops.io/you-can-run-but-you-cant-hide-detecting-process-reimaging-behavior-e6bb9a10c40b
+https://kar.kent.ac.uk/71720/11/Hull2019_Article_RansomwareDeploymentMethodsAnd.pdf
+https://dspace.library.uvic.ca/bitstream/handle/1828/11066/Jethva_Brijesh_MASc_2019.pdf?sequence=1&isAllowed=y
+",2
+,NtQueryDirectoryFileEx,01/10/2016,,,,https://www.contextis.com/en/blog/malware-2-from-infection-to-persistence,,,"https://blog.trendmicro.com/trendlabs-security-intelligence/without-a-trace-fileless-malware-spotted-in-the-wild/
+http://web.archive.org/web/20190311201404/https://blog.trendmicro.com/trendlabs-security-intelligence/without-a-trace-fileless-malware-spotted-in-the-wild/ ",https://web.eecs.umich.edu/~weimerw/students/kleach-dissertation.pdf,,,"https://www.ru.nl/publish/pages/769526/z6_timvandijk_masterthesis.pdf
+https://www.sciencedirect.com/science/article/pii/S016740481831246X ",8
+,NtQSI(SYSTEM_PROCESS_INF),01/10/2018,,,,,,,,,,https://www.researchgate.net/publication/328758559_Malware_Dynamic_Analysis_Evasion_Techniques_A_Survey,,11
+,EnumProcesses,01/10/2009,"https://securityxploded.com/hidden-process-detection.php 
+http://index-of.es/Varios-2/Subverting%20The%20Windows%20Kernel%20Rootkits.pdf 
+https://www.reddit.com/r/Guildwars2/comments/8c2j0y/a_technical_analysis_of_the_spyware_arena_used/",,"https://www.ieee-security.org/TC/SP2011/PAPERS/2011/paper019.pdf
+https://www.cc.gatech.edu/~brendan/virtuoso.pdf
+https://sourceforge.net/p/mingw-w64/mailman/mingw-w64-public/?limit=250&viewmonth=201109",,,"https://forums.spybot.info/printthread.php?t=23632&pp=40&page=13
+http://arno.uvt.nl/show.cgi?fid=142935
+https://www.spywareinfoforum.com/topic/118846-spam-frauds-fakes-and-other-malware-deliveries/page-26","https://pdfs.semanticscholar.org/4410/1b90c898d22902abd59983272e1cb2d2f9eb.pdf
+https://security.sauer.ninja/files/Bachelorarbeit-Das-Schutzpotential-von-Antivirenprogrammen-Dominik-Sauer.pdf","https://blog.checkpoint.com/wp-content/uploads/2016/05/Tesla-crypt-whitepaper_V3.pdf
+https://repository.arizona.edu/bitstream/handle/10150/613135/azu_etd_14572_sip1_m.pdf?sequence=1","https://attack.mitre.org/techniques/T1057/
+https://archive.org/stream/windows-internals-part1-7th/windows-internals-part1-7th_djvu.txt","https://www.slideshare.net/JamesHaughomJr/lets-talk-technical-malware-evasion-and-detection
+https://cyware.com/blog/pos-threat-evolution-from-skimming-to-network-based-attacks-738f","https://security.stackexchange.com/questions/207914/prevent-a-process-from-reading-my-process-list
+https://practicalsecurityanalytics.com/threat-hunting-with-function-imports/",4
+List Proc,GetModuleBaseName,01/07/2014,,,,,,https://wikileaks.org/ciav7p1/cms/files/BypassAVDynamics.pdf,,,,https://www.unknowncheats.me/forum/anti-cheat-bypass/271733-driver-aka-kernel-mode.html,"https://www.cyberbit.com/blog/endpoint-security/malware-mitigation-when-direct-system-calls-are-used/
+https://blog.malwarebytes.com/threat-analysis/2018/08/process-doppelganging-meets-process-hollowing_osiris/
+https://rbonichon.github.io/asi36/papers/p395-cheng.pdf
+https://dl.acm.org/ft_gateway.cfm?id=3129712&type=pdf
+https://www.jstage.jst.go.jp/article/transinf/E101.D/11/E101.D_2017ICP0011/_pdf
+https://www.mdpi.com/2076-3417/8/7/1044/htm
+https://arxiv.org/pdf/1806.10741
+https://blog.malwarebytes.com/threat-analysis/2018/08/process-doppelganging-meets-process-hollowing_osiris/
+",8
+List Services,OpenSCManager,01/10/2009,"http://index-of.es/Varios-2/Subverting%20The%20Windows%20Kernel%20Rootkits.pdf
+https://hypcode.org/public/publications/dissertation-2007-wildcat.pdf
+https://www.codeproject.com/Articles/6805/Kernel-mode-API-spying-an-ultimate-hack",,,,,"https://oaktrust.library.tamu.edu/bitstream/handle/1969.1/153235/XU-DISSERTATION-2014.pdf?sequence=1
+https://archive.org/stream/pdfy-bvy3W5NH_XpnFu_u/%5BCEH%5D%20-%20Certified%20Ethical%20Hacking%20-%20Networking%20v3.0_djvu.txt","https://pdfs.semanticscholar.org/4410/1b90c898d22902abd59983272e1cb2d2f9eb.pdf
+http://www.bilgiguvenlik.net/2015/05/
+http://pirate-network.com/upload/files/w_pacb40.pdf
+http://web.archive.org/web/20190712200333/http://pirate-network.com/upload/files/w_pacb40.pdf  
+
+","http://patriotapplication79.hatenablog.com/entries/2016/01/23
+https://archive.org/stream/Exploiting_Software_How_To_Break_Code/Exploiting_Software_How_To_Break_Code_djvu.txt",https://raw.githubusercontent.com/zerosum0x0/defcon-25-workshop/master/DEFCON25.pdf,https://terrorgum.com/tfox/books/learningmalwareanalysis_ebook.pdf,"https://link.springer.com/article/10.1186/s40163-019-0097-9
+https://www.researchgate.net/publication/331027941_Malware_Detection_Based_on_Deep_Learning_of_Behavior_Graphs",4
+,EnumServicesStatus,01/10/2009,http://index-of.es/Windows/win_net_srv.pdf,,,,,,,https://github.com/dudududu1982/anti-anti-vm-dll,,,,10
+,OpenService,01/10/2009,"https://www.sans.org/reading-room/whitepapers/logging/practical-application-sim-sem-siem-automating-threat-identification-1781
+https://hypcode.org/public/publications/dissertation-2007-wildcat.pdf
+https://crypto.stanford.edu/cs155old/cs155-spring08/papers/botswat_dimva.pdf
+",https://msrc-blog.microsoft.com/2010/12/22/assessing-an-iis-ftp-7-5-unauthenticated-denial-of-service-vulnerability/,https://www.scribd.com/document/74422576/Reverend-Bill-Blunden-The-Rootkit-Arsenal-Escape-and-Evasion-in-the-Dark-Corners-of-the-System,,http://www.cs.loyola.edu/~lawrie/id-splitting-data/loyola-udel-java.cnt,,http://www.bilgiguvenlik.net/2015/05/,"https://pdfs.semanticscholar.org/515b/f8dd74147dc4e46a68e8e098dbc1171a9747.pdf
+http://patriotapplication79.hatenablog.com/entries/2016/01/23
+https://archive.org/stream/Exploiting_Software_How_To_Break_Code/Exploiting_Software_How_To_Break_Code_djvu.txt",,https://0x00sec.org/t/anti-forensic-and-file-less-malware/10008,"https://www.researchgate.net/publication/331027941_Malware_Detection_Based_on_Deep_Learning_of_Behavior_Graphs
+https://www.datakontext.com/media/archive/9b/2f/03/epaper-kes_5-2019/index.html",4
+,GetServiceDisplayName,01/10/2009,http://index-of.es/Windows/win_net_srv.pdf,,,,,,,,,,,11
+,GetServiceKeyName,01/10/2009,http://index-of.es/Windows/win_net_srv.pdf,,,,,,,,,,,11
+Driver,EnumDeviceDrivers,01/04/2015,,,,,,,"https://www.tophertimzen.com/resources/cs407/slides/week06_01-Rootkits.html
+",,,https://repo.theoremforge.com/pentesting/tools/-/commit/7d876b6b5c3ccacf7de782aea15b6e8285f062af?expanded=1,,9
+,GetDeviceDriverBaseName,,,,,,,,,,,,,13
